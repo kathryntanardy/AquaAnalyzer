@@ -8,4 +8,5 @@ Developed by the 2024-2025 team - Kathryn Tanardy, Chloe Yip, Hugo Kwan, and Igo
 
 ### Getting Started
 
-`npm run android` to start app
+" " - to start app
+
