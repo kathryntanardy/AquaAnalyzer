@@ -8,5 +8,4 @@ This software interface is used to display incoming data from the analyzer devic
 Developed by the 2024-2025 team - Kathryn Tanardy, Chloe Yip, Hugo Kwan, and Igor Montecinos.
 
 ### Getting Started
-
-" " - to start app
+`npm start` - to start app
