@@ -6,7 +6,11 @@
     "start": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
-    "web": "expo start --web"
+    "web": "expo start --web",
+    "lint": "npx eslint -c ./eslint.config.mjs",
+    "lint:fix": "npx eslint -c ../eslint.config.mjs --fix && npm run prettier:format",
+    "prettier:check:ci": "npx prettier --check . --ignore-unknown '!**/*.{js,d.ts}'",
+    "prettier:format": "npx prettier --write . --ignore-unknown '!**/*.{js,d.ts}'"
   },
   "dependencies": {
     "expo": "~51.0.28",
@@ -15,7 +19,14 @@
     "react-native": "0.74.5"
   },
   "devDependencies": {
-    "@babel/core": "^7.20.0"
+    "@babel/core": "^7.20.0",
+    "@eslint/js": "^9.16.0",
+    "eslint": "^9.16.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "eslint-plugin-react": "^7.37.2",
+    "globals": "^15.13.0",
+    "prettier": "^3.4.2"
   },
   "private": true
 }
