@@ -8,5 +8,5 @@ Developed by the 2024-2025 team - Kathryn Tanardy, Chloe Yip, Hugo Kwan, and Igo
 
 ### Getting Started
 
-" " - to start app
+`npm start` - to start app
 
